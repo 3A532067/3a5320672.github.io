@@ -146,7 +146,7 @@ nav {
 nav .block {
   margin-top: -85px;
   background: #fff;
-  padding: 25px 40px;
+  padding: 10px 40px;
   background: rgba(255, 255, 255, 0.89);
 }
 nav .block .navbar-default {
@@ -156,10 +156,11 @@ nav .block .navbar-default {
   background: none;
 }
 nav .block .navbar-default .navbar-brand {
+  margin-top: 15px;
   padding-left: 0px;
 }
 nav .block .navbar-default .navbar-nav {
-  padding-top: 10px;
+  padding-top: 0px;
 }
 nav .block .navbar-default .navbar-nav > li > a {
   color: #2E2E2E;
