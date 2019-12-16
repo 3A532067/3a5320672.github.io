@@ -142,6 +142,7 @@ a:active {
 nav {
   z-index: 99999;
   width: 100%;
+  position:absolute;
 }
 nav .block {
   margin-top: -85px;
