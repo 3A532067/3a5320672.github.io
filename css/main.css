@@ -857,3 +857,15 @@ nav .block .navbar-default .navbar-nav>.active>a:hover:before {
         margin-top: -239px;
     }
 }
+
+#preview {
+    right: 5%;
+    width: 30%;
+    float: right;
+    background-color: #8e68ff;
+    text-align: center;
+    height: 250px;
+    line-height: 250px;
+    color: #fff;
+    font-size: 2em;
+}
