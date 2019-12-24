@@ -43,32 +43,41 @@
 </head>
 
 <body>
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators mob_circle" style="margin-bottom: 80px;">
+            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active" style="width: 20px; height: 20px;"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="1" style="width: 20px; height: 20px;"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="2" style="width: 20px; height: 20px;"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="3" style="width: 20px; height: 20px;"></li>
+        </ol>
+        <div class="carousel-inner">
+            <div class="item active">
+                <img class="d-block w-100" src="images/carousel/1.png" alt="First slide" style="margin-top: 0px">
+            </div>
+            <div class="item">
+                <img class="d-block w-100" src="images/carousel/2.png" alt="Second slide" style="margin-top: 0px">
+            </div>
+            <div class="item">
+                <img class="d-block w-100" src="images/carousel/3.png" alt="Third slide" style="margin-top: 0px">
+            </div>
+            <div class="item">
+                <img class="d-block w-100" src="images/carousel/4.png" alt="Fourth slide" style="margin-top: 0px">
+            </div>
+        </div>
+        <a class="left carousel-control" href="#carouselExampleIndicators" role="button" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left fa fa-angle-left" aria-hidden="true"></span>
+
+        </a>
+        <a class="right carousel-control" href="#carouselExampleIndicators" role="button" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right fa fa-angle-right" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
+    </div>
     <!--
 	header-img start 
     ============================== -->
 
-    <div id="circleContent" class="carousel slide">
-        <ol class="carousel-indicators mob_circle" style="margin-bottom: 80px;">
-            <li data-target="#circleContent" data-slide-to="0" class="active" style="width: 20px; height: 20px;"></li>
-            <li data-target="#circleContent" data-slide-to="1" style="width: 20px; height: 20px;"></li>
-            <li data-target="#circleContent" data-slide-to="2" style="width: 20px; height: 20px;"></li>
-            <li data-target="#circleContent" data-slide-to="3" style="width: 20px; height: 20px;"></li>
-        </ol>
-        <div class="carousel-inner ">
-            <div class="item active">
-                <img src="images/carousel/1.png" style="margin-top: 0px">
-            </div>
-            <div class="item">
-                <img src="images/carousel/2.png" style="margin-top: 0px">
-            </div>
-            <div class="item">
-                <img src="images/carousel/3.png" style="margin-top: 0px">
-            </div>
-            <div class="item">
-                <img src="images/carousel/4.png" style="margin-top: 0px">
-            </div>
-        </div>
-    </div>
+
     <img class="img-responsive mob_decoration web_decoration" src="images/headermid.png" style="position:relative; z-index:2 " alt="響應式圖片">
     <div class="mob_blank"></div>
 
