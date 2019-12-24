@@ -44,6 +44,6 @@ function upDate(previewPic) {
 
 function unDo() {
     document.getElementById("preview").style.backgroundColor = "#8e68ff"
-    document.getElementById("preview").innerHTML = "Preview";
-    document.getElementById("preview").style.backgroundImage = "none";
+    document.getElementById("preview").innerHTML = "&nbsp;";
+    document.getElementById("preview").style.backgroundImage = "images/photo/1.png";
 }
