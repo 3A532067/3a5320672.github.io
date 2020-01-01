@@ -47,3 +47,18 @@ function unDo() {
     document.getElementById("preview").innerHTML = "&nbsp;";
     document.getElementById("preview").style.backgroundImage = "images/photo/1.png";
 }
+
+$(function() {
+
+    var $btn = $('#btnTop');
+    var $home = $('#topSection');
+    var startpoint = $home.scrollTop() + $home.height();
+
+    $(window).on('scroll', function() {
+        if ($(window).scrollTop() > startpoint) {
+            $btn.show();
+        } else {
+            $btn.hide();
+        }
+    });
+});

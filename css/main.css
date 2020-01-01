@@ -11,7 +11,7 @@
 --*/
 
 body {
-    font-family: myfont;
+    font-family: Microsoft JhengHei;
     font-size: 14px;
     font-weight: 400;
 }
@@ -23,7 +23,7 @@ h4,
 h5,
 h6 {
     margin: 0px;
-    font-family: myfont;
+    font-family: Microsoft JhengHei;
 }
 
 h1 {
@@ -45,7 +45,7 @@ p {
     font-weight: 400;
     line-height: 20px;
     margin: 0px;
-    font-family: myfont;
+    font-family: Microsoft JhengHei;
 }
 
 ul {
