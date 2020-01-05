@@ -1,0 +1,46 @@
+@charset "utf-8";
+#main {
+	width: 1280px;
+	margin-right: auto;
+	margin-left: auto;
+}
+#header {
+	height: 500px;
+	width: 1280px;
+}
+#conten {
+	height: 800px;
+	width: 1280px;
+	background-image: url(images/17b3559220f03fb0c009f0c21944dd7c.jpg);
+	background-repeat: no-repeat;
+}
+#l {
+	float: left;
+	width: 280px;
+}
+#r {
+	float: left;
+	width: 1000px;
+}
+body {
+	background-repeat: no-repeat;
+	color: #3E3E3E;
+	font-family: "微軟正黑體", Arial;
+}
+.1 {
+	float: left;
+
+}
+.3 {
+	float: right;
+	clear: right;
+	margin-left: 480px;
+}
+.4 {
+	float: right;
+}
+.5 {
+	float: right;
+}
+.title1 {
+}
