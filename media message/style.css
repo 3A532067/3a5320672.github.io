@@ -1,0 +1,126 @@
+@charset "utf-8";
+#main {
+	width: 1024px;
+	margin-right: auto;
+	margin-left: auto;
+}
+#header {
+	height: 374px;
+	width: 1024px;
+}
+#header {
+	background-image: url(images/header.jpg);
+	height: 374px;
+	width: 1024px;
+}
+#content {
+	width: 1024px;
+	float: left;
+}
+#contentL {
+	width: 150px;
+	float: left;
+	font-family: "微軟正黑體", "Times New Roman";
+	font-size: 14px;
+	text-align: left;
+	clear: left;
+	margin-top: 40px;
+}
+.logo {
+	margin-left: 20px;
+	letter-spacing: 3pt;
+	margin-top: 20px;
+	float: left;
+}
+#contentC {
+	width: 724px;
+	float: left;
+}
+#contentC {
+	float: left;
+	width: 724px;
+}
+.body {
+	font-size: 14px;
+	padding-top: 0px;
+	font-family: "微軟正黑體";
+
+}
+.image {
+	margin-bottom: 10px;
+	margin-top: 10px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.font {
+	font-weight: bold;
+	border-left-width: 5px;
+	border-left-style: dashed;
+	padding-left: 10px;
+	float: left;
+
+}
+#contentR {
+	float: left;
+	width: 150px;
+}
+.leftfont  {
+	font-weight: bold;
+	border-left: 5px dashed #13D03A;
+	font-size: 32pt;
+	line-height: 2.5;
+	padding-left: 10px;
+	font-family: "微軟正黑體";
+	float: left;
+	letter-spacing: 10pt;
+}
+.media {
+	color: #0F4EB9;
+	font-size: 24px;
+}
+.CONTENTTTT {
+	font-family: "微軟正黑體";
+	float: left;
+	clear: right;
+	margin-right: 50px;
+	left: 0px;
+	margin-left: 0px;
+	font-size: 18px;
+	text-align: center;
+}
+
+
+.center123 {
+	font-family: "微軟正黑體";
+	font-size: 12pt;
+	float: left;
+	padding-left: 300px;
+	margin-top: -190px;
+	margin-right: 29px;
+	line-height: 20pt;
+	color: #000000;
+}
+.logofont {
+	font-family: "微軟正黑體";
+	font-size: 18pt;
+	letter-spacing: 3pt;
+	color: #474747;
+	word-spacing: -5pt;
+	margin-top: 5px;
+	margin-bottom: 15px;
+}
+.LOGOFONTENG {
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
+	font-style: italic;
+	font-size: 12pt;
+	float: left;
+	letter-spacing: 0px;
+	margin-top: -20px;
+	color: #535353;
+	font-variant: normal;
+	font-weight: normal;
+	word-spacing: 0pt;
+	text-decoration: underline;
+	margin-bottom: 10px;
+}
