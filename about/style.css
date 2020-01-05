@@ -1,0 +1,29 @@
+@charset "utf-8";
+#main {
+	width: 1280px;
+	margin-right: auto;
+	margin-left: auto;
+	background-image: url(%E7%B6%B2%E9%A0%81%E6%9C%9F%E6%9C%AB-01.jpg);
+}
+#header {
+	height: 240px;
+	width: 1280px;
+}
+#conter {
+	height: 1180px;
+	width: 1280px;
+}
+#footer {
+	height: 240px;
+	width: 1280px;
+}
+.logo1 {
+	margin-top: 45px;
+	margin-left: 35px;
+	float: left;
+}
+.logo2 {
+	float: right;
+	margin-top: 80px;
+	margin-right: 35px;
+}
